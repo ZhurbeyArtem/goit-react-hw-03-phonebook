@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 0;
+}
+.btn {
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

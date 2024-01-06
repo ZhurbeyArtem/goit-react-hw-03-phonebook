@@ -1,0 +1,14 @@
+.form {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
