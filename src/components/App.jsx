@@ -31,10 +31,9 @@ export class App extends Component {
   };
 
   removeUser = id => {
-    const updatedContacts = this.state.contacts.filter(
-      contact => contact.id !== id
-    );
-    this.setState({ contacts: updatedContacts });
+    this.setState(prevState => ({
+      contacts: prevState.contacts.filter(contact => contact.id !== id),
+    }));
   };
 
   setFilter = val => {
